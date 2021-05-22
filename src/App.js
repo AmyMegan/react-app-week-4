@@ -38,14 +38,14 @@ function App() {
         <div className="upper">
           <h1 div="current">
             <br />
-            <img src="https://ssl.gstatic.com/onebox/weather/48/sunny.png" />
+            <img src="https://ssl.gstatic.com/onebox/weather/48/sunny.png"  alt="image of the weather elements"/>
             {weatherData.description}
             <span>
               {" "}
-              <a href="./" className="active">
+              <a href="./" className="active" rel="noreferrer">
                 {weatherData.temperature}°C
               </a>
-              <a href="./" className="active2">
+              <a href="./" className="active2" rel="noreferrer">
                 |°F
               </a>
             </span>
@@ -74,7 +74,7 @@ function App() {
           <div className="row">
             <div className="col">
               <div>
-                <img src={weatherData.imgURL} />
+                <img src={weatherData.imgURL} alt="image of weather elements"/>
                 <p className="temp"> Sunny </p>
                 <footer>
                   I'm on
