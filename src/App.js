@@ -42,10 +42,10 @@ function App() {
             {weatherData.description}
             <span>
               {" "}
-              <a href="./" rel="noreferrer" className="active" rel="noreferrer">
+              <a href="./" rel="noreferrer" className="active">
                 {weatherData.temperature}°C
               </a>
-              <a href="./" rel="noreferrer" className="active2" rel="noreferrer">
+              <a href="./" rel="noreferrer" className="active2">
                 |°F
               </a>
             </span>
@@ -82,6 +82,7 @@ function App() {
                     href="https://github.com/AmyMegan/AmyMegan"
                     className="Github"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     {" "}
                     Github!
@@ -92,6 +93,7 @@ function App() {
                     href="https://www.linkedin.com/in/amy-costall-a1ba46131/"
                     className="Linked-In"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Open-Source Code By Amy Costall
                   </a>
