@@ -42,10 +42,10 @@ function App() {
             {weatherData.description}
             <span>
               {" "}
-              <a href="./" className="active" rel="noreferrer">
+              <a href="./" rel="noreferrer" className="active" rel="noreferrer">
                 {weatherData.temperature}°C
               </a>
-              <a href="./" className="active2" rel="noreferrer">
+              <a href="./" rel="noreferrer" className="active2" rel="noreferrer">
                 |°F
               </a>
             </span>
